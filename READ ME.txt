@@ -1,0 +1,42 @@
+CONTACT FORM PLUGIN
+1. Install a Contact form 7 plugin.
+2. Go to the contact form plugin.
+3. Edit the contact form 1.
+4. Under form area, place this code.
+--------------------------------------------
+<div class="row control-group">
+<div class="form-group col-xs-12 floating-label-form-group controls">
+<label>Name</label>
+[text* your-name class:form-control placeholder "Name"]
+<p class="help-block text-danger"></p>
+</div>
+</div>
+
+<div class="row control-group">
+<div class="form-group col-xs-12 floating-label-form-group controls">
+<label>Email Address</label>
+[text* your-email class:form-control placeholder "Email Address"]
+<p class="help-block text-danger"></p>
+</div>
+</div>
+<div class="row control-group">
+<div class="form-group col-xs-12 floating-label-form-group controls">
+<label>Phone Number</label>
+[text* your-number class:form-control placeholder "Contact number"]
+<p class="help-block text-danger"></p>
+</div>
+</div>
+<div class="row control-group">
+<div class="form-group col-xs-12 floating-label-form-group controls">
+<label>Message</label>
+[textarea your-message class:form-control placeholder "message"]
+<p class="help-block text-danger"></p>
+</div>
+</div>
+
+<div id="success></div>
+<div class="row">
+<div class="form-group col-xs-12">
+[submit class:btn class:btn-success class:btn-xl class:btn-dark "send" ]
+</div>
+</div>
